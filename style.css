@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
 body {
+  margin: 0;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   background-color: hsl(0, 0%, 100%);
+  width: 100%;
 }
 input::placeholder {
   color: hsl(206, 6%, 79%);
@@ -10,7 +12,7 @@ input::placeholder {
 
 #submit {
   background-color: hsl(271, 36%, 24%);
-  color:hsl(0, 0%, 100%) ;
+  color: hsl(0, 0%, 100%);
   border-radius: 50%;
   outline: none;
   border: none;
@@ -18,11 +20,33 @@ input::placeholder {
 .about-description {
   color: hsl(270, 7%, 64%);
 }
-.app-header-heading, .app-message-option label{
-    color: hsl(0, 0%, 100%);
+.app-demo {
+  display: flex;
+  align-items: center;
 }
-.app-message-option label span{
-    font-weight: 700;
+.app-container {
+  padding: 10px;
+  width: 280px;
+  background: aqua;
+  border-radius: 5%;
+  height: 560px;
+  display: flex;
+  margin-left: -75px;
+  justify-content: center;
+}
+.app-header {
+  background: linear-gradient(
+    to right,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+}
+.app-header-heading,
+.app-message-option label {
+  color: hsl(0, 0%, 100%);
+}
+.app-message-option label span {
+  font-weight: 700;
 }
 .attribution {
   font-size: 11px;
@@ -35,13 +59,33 @@ input::placeholder {
   color: hsl(276, 55%, 52%);
 }
 .chat-right {
+  text-align: right;
   color: hsl(271, 15%, 43%);
 }
+.content {
+  display: flex;
+  height: 100vh;
+}
+.content-left {
+  width: 50%;
+  display: flex;
+}
+.content-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .gradient-background {
-  /* height: 500px;
-    width: 300px;
-    background: linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%)); */
-  /* border-radius: 10% 10% 64% 56% / 0% 0% 37% 10%; */
+  height: 90vh;
+  width: 30vw;
+  background: linear-gradient(
+    to bottom,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  border-radius: 0% 0% 100% 100% / 0% 0% 55% 55%;
+  margin-left: -30px;
 }
 .main-heading {
   color: hsl(271, 36%, 24%);
