@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.ico">
-  
-  <title>Frontend Mentor | Chat app CSS illustration</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body class="main">
-<section class="app-container">
-  <div class="gradient-background">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.ico"
+    />
 
-  </div>
-  <div class="mobile-app-container">
-    
-    <h3>Samuel Green</h3>
-    <h5>Available to Walk</h5>
-  <p class="app-message">
-    That sounds great. I’d be happy with that.
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="main">
+    <section class="app-container">
+      <div class="gradient-background"></div>
+      <div class="mobile-app-container">
+        <div class="app-header">
+          <img src="" alt="avatar" class="user-avatar" />
+          <h3>Samuel Green</h3>
+          <h5 class="sub-heading">Available to Walk</h5>
+        </div>
+        <div class="app-chat">
+          <p class="chat-left">That sounds great. I’d be happy with that.</p>
+          <p class="chat-left">
+            Could you send over some pictures of your dog, please?
+          </p>
+          <p class="chat-image-conatainer">
+            <img src="" alt="" class="chat-image" />
+            <img src="" alt="" class="chat-image" />
+            <img src="" alt="" class="chat-image" />
+          </p>
+          <p class="chat-right">Here are a few pictures. She’s a happy girl!</p>
+          <p class="chat-right">Can you make it?</p>
+          <p class="chat-left">
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+          <p class="app-message app-message-option">
+            <input type="radio" name="walk" id="walk-30" />
+            <label for="walk-30">
+              30 minute walk
+              <span>$29</span>
+            </label>
+          </p>
+          <p class="app-message app-message-option">
+            <input type="radio" name="walk" id="walk-60" />
+            <label for="walk-60">
+              1 hour walk
+              <span>$49</span>
+            </label>
+          </p>
+          <input type="text" placeholder="Type a message…" />
+          <button type="submit">></button>
+        </div>
+      </div>
+    </section>
+    <section class="app-about">
+      <h1 class="main-heading">Simple booking</h1>
+      <p class="about-description">
+        Stay in touch with our dog walkers through the chat interface. This
+        makes it easy to discuss arrangements and make bookings. Once the walk
+        has been completed you can rate your walker and book again all through
+        the chat.
+      </p>
+    </section>
 
-  </p>
-  <p class="app-message">
-    Could you send over some pictures of your dog, please?
-    
-  </p>
-  <p class="app-message">
-    IMAGES
-  </p>
-  <p class="app-message">
-    Here are a few pictures. She’s a happy girl!
-    
-  </p>
-  <p class="app-message">
-    Can you make it?
-    
-  </p>
-  <p class="app-message">
-    She looks so happy! The time we discussed works. How long shall I take her out for?
-    
-  </p>
-  <p class="app-message app-message-option ">
-    <input type="radio" name="walk" id="walk-30">
-    <label for="walk-30">
-      30 minute walk
-    <span>$29</span>
-    </label>
-  </p>
-  <p class="app-message app-message-option">
-    <input type="radio" name="walk" id="walk-60">
-    <label for="walk-60">
-      1 hour walk
-    <span>$49</span>
-    </label>
-  </p>
-<input type="text" placeholder="Type a message…">
-<button type="submit"> > </button>
-  </div>
-</section>
-<section class="app-about">
-  <h1>
-    Simple booking
-  </h1>
-  
-
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-  discuss arrangements and make bookings. Once the walk has been completed you can rate 
-  your walker and book again all through the chat.
-  
-</section>
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
