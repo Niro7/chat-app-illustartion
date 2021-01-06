@@ -7,11 +7,22 @@ body {
 input::placeholder {
   color: hsl(206, 6%, 79%);
 }
+
 #submit {
   background-color: hsl(271, 36%, 24%);
+  color:hsl(0, 0%, 100%) ;
+  border-radius: 50%;
+  outline: none;
+  border: none;
 }
 .about-description {
   color: hsl(270, 7%, 64%);
+}
+.app-header-heading, .app-message-option label{
+    color: hsl(0, 0%, 100%);
+}
+.app-message-option label span{
+    font-weight: 700;
 }
 .attribution {
   font-size: 11px;
