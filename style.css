@@ -9,7 +9,6 @@ body {
 input::placeholder {
   color: hsl(206, 6%, 79%);
 }
-
 #submit {
   background-color: hsl(271, 36%, 24%);
   color: hsl(0, 0%, 100%);
@@ -27,7 +26,7 @@ input::placeholder {
 .app-container {
   padding: 10px;
   width: 280px;
-  background:  hsl(0, 0%, 100%);
+  background: hsl(0, 0%, 100%);
   border-radius: 20px;
   height: 560px;
   display: flex;
@@ -42,6 +41,19 @@ input::placeholder {
     hsl(293, 100%, 63%)
   );
   border-radius: 15px 15px 7px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.app-header svg{
+  color:  hsl(0, 0%, 100%) !important;
+}
+.app-user-info {
+  flex-grow: 0.5;
+}
+.app-user-info *{
+  margin: 0 0 0 10px;
 }
 .app-header-heading,
 .app-message-option label {
@@ -97,20 +109,27 @@ input::placeholder {
   border-radius: 15px;
   position: relative;
 }
-.mobile-top{
+.mobile-top {
   background: hsl(0, 0%, 100%);
-    height: 30px;
-    margin-top: -10px;
-    margin-bottom: -20px;
-    z-index: 100;
-    margin-left: auto;
-    margin-right: auto;
-    width: 53.5%;
-    position: absolute;
-    z-index: 100;
-    left: 23.25%;
-    border-radius: 0 0 20px 20px;
+  height: 30px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  z-index: 100;
+  margin-left: auto;
+  margin-right: auto;
+  width: 53.5%;
+  position: absolute;
+  z-index: 100;
+  left: 23.25%;
+  border-radius: 0 0 20px 20px;
 }
 .sub-heading {
   color: hsl(276, 100%, 81%);
+}
+.user-avatar {
+  flex-grow: 0.3;
+  margin-left: 5px;
+  width: 5px;
+  border-radius: 50%;
+  border: 2px solid  hsl(0, 0%, 100%);
 }
